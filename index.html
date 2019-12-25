@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo</title>
+	<script defer type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>To Do List</h1>
+		<input type="text" id="input" class="form-control" placeholder="Enter your task here">
+		<button id="add_button" class="btn btn-primary">Add</button>
+		<button id="clear_button" class="btn btn-danger">Clear</button>
+		<div>
+			<select id="task_type" class="btn btn-outline-success">
+				<option value="home">Home</option>
+				<option value="work">Work</option>
+				<option value="urgent">Urgent</option>
+			</select>
+		</div>
+		<div id=task_list></div>
+	</div>
+</body>
+</html>
